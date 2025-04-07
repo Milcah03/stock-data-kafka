@@ -1,52 +1,56 @@
-📈 Stock Data Extraction using Apache Kafka, Cassandra & Confluent
+**📈 Stock Data Extraction using Apache Kafka, Cassandra & Confluent**
+
 This project demonstrates how to extract and stream real-time stock market data using Apache Kafka, process it with Python, and persist it in Apache Cassandra. It leverages Confluent Platform to simplify Kafka setup and management.
 
-🛠️ Tech Stack
-Python
+**🛠️ Tech Stack**
 
-Apache Kafka (for real-time data streaming)
+1. Python
 
-Confluent Platform (for easier Kafka management)
+2. Apache Kafka (for real-time data streaming)
 
-Apache Cassandra (NoSQL database for storing stock data)
+3. Confluent Platform (for easier Kafka management)
 
-Kafka-Python (Kafka client library)
+4. Apache Cassandra (NoSQL database for storing stock data)
 
-JSON (data format)
+5. Kafka-Python (Kafka client library)
 
-📌 Project Structure
+6. JSON (data format)
+
+**📌 Project Structure**
+```
 ├── kafka_producer.py        # Sends stock data to Kafka topic
 ├── kafka_consumer.py        # Consumes stock data and inserts into Cassandra
 ├── README.md                # Project documentation
+```
 
+**🔁 How It Works**
 
-🔁 How It Works
-Producer
+**1. Producer**
 
 Reads data extracted from polygonio
 
 Publishes each record to Kafka topic stock_prices
 
-Kafka (via Confluent Platform)
+**2. Kafka (via Confluent Platform)**
 
 Acts as the message broker between producer and consumer
 
-Consumer
+**3. Consumer**
 
 Subscribes to stock_prices topic
 
 Parses stock records and inserts them into Apache Cassandra
 
 
-✅ Use Cases
-Real-time stock price dashboards
+**✅ Use Cases**
 
-Historical stock data warehousing
+1. Real-time stock price dashboards
 
-Real-time analytics with Kafka + Cassandra
+2. Historical stock data warehousing
 
-Financial ML model pipelines
+3. Real-time analytics with Kafka + Cassandra
 
-🙌 Credits
-Project by Milcah03, based on the tutorial Stock Data Extraction using Apache Kafka.
+4. Financial ML model pipelines
+
+
 
