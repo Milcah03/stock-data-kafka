@@ -15,15 +15,11 @@ Kafka-Python (Kafka client library)
 JSON (data format)
 
 📌 Project Structure
-bash
-Copy
-Edit
 ├── kafka_producer.py        # Sends stock data to Kafka topic
 ├── kafka_consumer.py        # Consumes stock data and inserts into Cassandra
-├── stock-data.csv           # Sample stock price data
-├── cassandra_setup.cql      # CQL script to create Cassandra table
-├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
+├── README.md                # Project documentation
+
+
 🔁 How It Works
 Producer
 
