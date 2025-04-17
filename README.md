@@ -52,5 +52,8 @@ Parses stock records and inserts them into Apache Cassandra
 
 4. Financial ML model pipelines
 
+**📖 Article**
+
+Want a step-by-step walkthrough? Check out the full write-up on https://dev.to/milcah03/stock-data-extraction-using-apache-kafka-59g0 
 
 
